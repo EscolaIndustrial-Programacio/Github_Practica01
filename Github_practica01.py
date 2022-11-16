@@ -68,7 +68,14 @@ def con(): # 16
    
 
 def tronc_con(): # 17
-   
+   print("Calcul de l'area i del volum d'un tronc de con" )
+    R = float(input("Radi major = "))
+    r = float(input("radi menor = "))
+    h = float(input("altura = "))
+    g = float(input("generatriu = "))
+    area = PI * (g * (r+R)+(r*r)+math.pow(R,2))
+    volum = PI * h * ((R*R)+(r*r)+(R*r))/3
+    return area, volum
 
 def esfera(): # 18
     
