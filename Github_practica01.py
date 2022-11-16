@@ -24,13 +24,13 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
-def estel(): # 5
+def estel(): # 6
     
      
 def trapezi(): # 6
     
 
-def cercle(): # 7
+def cercle(): # 8
     
 
 def poligon(): # 9
@@ -45,8 +45,12 @@ def sector(): # 11
 
 # Àrees i volums
 
-def cub(): # 12
-   
+def cub():
+    print("Càlcul de l'àrea i del volum d'un cub ")
+    a = float(input("Aresta = "))
+    area = 6 * pow(a,2)
+    volum = pow(a,3)
+    return area, volum
 
 def cilindre(): # 13
     
