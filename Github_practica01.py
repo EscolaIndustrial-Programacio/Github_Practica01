@@ -209,15 +209,26 @@ elif menu == 14 :
     
 elif menu == 15 :
     
-elif menu == 16 : # Alumn@ 33
-    
+elif menu == 16 : # 33 DiegoV
+    area, volum = con()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 17 :
-    
+    area,volum = tronc_con()
+    print("L'àrea és ", area)
+    print("El volum en cm és ",volum, "cm'3'.")
 elif menu == 18 :
-    
+    area, volum = esfera()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 19 :
-    
+    area, volum = piramide()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 20 :
+    area, volum = tetraedre_regular()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 21 : # Alumn@ 34
     
