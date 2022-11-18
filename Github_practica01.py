@@ -207,7 +207,7 @@ print("9. L'àrea i el perímetre d'un polígon regular ")
 print("10. L'àrea i el perímetre d'una corona circular ")
 print("11. L'àrea i el perímetre d'un sector circular ")
 print("")
-print("12. L'àrea i el volum d'un cub ") # Alumne 28
+print("12. L'àrea i el volum d'un cub ") # Alumne 28 PauR
 print("13. L'àrea i el volum d'un cilindre ")
 print("14. L'àrea i el volum d'un ortoedre ")
 print("15. L'àrea i el volum d'un prisma recte ")
