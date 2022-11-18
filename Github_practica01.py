@@ -1,11 +1,12 @@
 #Bloc02 ->Python Github_Practica01.py  V03
 
-# Importar la llibreria math i la constant PI Alumn@ 26
+# Importar la llibreria math i la constant PI Alumn@ 26 IsidroP
 # L'alumn@ 26 ens explicarà què és la llibreria math i perquè la fem servir
-# La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
 
-import math
-PI = math.pi  
+
+import math # La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
+PI = math.pi  # math.pi es el numero pi es a dir 3,14... dins la llibreria math.
+# També utilitzem math.pow que fa retornar el valor de x elevat a la potència y.
 
 # Àrees i perímetres
 # Els números es corresponen amb el número que he assignat a cada figura de la taula
