@@ -12,7 +12,7 @@ PI = math.pi
 # Els números també es corresponen amb els de l'alumn@ que ha de fer el programa i enviar-lo
 # El número de l'alumnat es correspon amb el seu número de llista
 
-def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'àrea i del perímetre d'un quadrat ")
+def quadrat(): # 1 Arnau A
     a = float(input("Costat = "))
     area = a * a
     perimetre = 4 * a
