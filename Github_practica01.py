@@ -166,7 +166,7 @@ def fus_falcaEsferica(): # 24
 def segment_esferic(): # 25
 
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
-# Programa principal  Alumn@ 27 oscaralejandro.peraza
+# Programa principal  Alumn@ 27 OscarAlejandroP
 
 print(" Menú Mides en cm , cm2 i cm3   ")
 print("================================")
