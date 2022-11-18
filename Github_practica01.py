@@ -38,6 +38,10 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
+<<<<<<< HEAD
+def estel(): # 6
+    
+=======
 
 def estel(): # 6 Biel B.
     print("Càlcul de l'àrea i del perímetre d'un estel ")
@@ -49,6 +53,7 @@ def estel(): # 6 Biel B.
     perimetre = 2 * (b + a)
     return area, perimetre
 
+>>>>>>> b72706da70c6c136e6b3f088d33c946a36b3f18b
      
 def trapezi(): # 7 Mariona B
     print("Càlcul de l'àrea i del perímetre d'un trapezi")
@@ -61,12 +66,20 @@ def trapezi(): # 7 Mariona B
     perimetre = B + b + a + c
     return area, perimetre
 
+<<<<<<< HEAD
+def cercle(): # 8
+<<<<<<< HEAD
+    
+=======
+=======
 def cercle(): # 8 Eric.C
+>>>>>>> 62e3fdb612022ac0f320c0a88cb562ddfe5188d7
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
     perimetre = 2 * PI * radi
     return area, perimetre
+>>>>>>> b72706da70c6c136e6b3f088d33c946a36b3f18b
 
 def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
@@ -98,8 +111,12 @@ def sector(): # 11 Marc C
 
 # Àrees i volums
 
-def cub(): # 12
-   
+def cub(): #12 Imran EK
+    print("Càlcul de l'àrea i del volum d'un cub ")
+    a = float(input("Aresta = "))
+    area = 6 * pow(a,2)
+    volum = pow(a,3)
+    return area, volum
 
 def cilindre(): # 13
     
@@ -354,7 +371,7 @@ elif menu == 25 :
 # També us pot demanar un codi que us donarà just abans
 # git status
 
-# cada alumn@ vetllarà perquè la seva part de codi funcioni
+# cada alumn@ vetllaà perquè la seva part de codi funcioni
 
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
