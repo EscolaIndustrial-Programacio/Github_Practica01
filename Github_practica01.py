@@ -179,7 +179,7 @@ def casquet_esferic(): # 23 Pere M.
 def fus_falcaEsferica(): # 24
     
     
-def segment_esferic(): # 25 Eduardo Otoni
+def segment_esferic(): # 25 Eduardo O
     print("Càlcul de l'àrea i del volum d'un segment esfèric ")
     h = float(input("Alçada de la zona o segment esfèric = "))
     R = float(input("Radi de l'esfera = "))
