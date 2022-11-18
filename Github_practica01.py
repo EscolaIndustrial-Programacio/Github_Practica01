@@ -229,7 +229,7 @@ elif menu == 25 :
 # També us pot demanar un codi que us donarà just abans
 # git status
 
-# cada alumn@ vetllarà perquè la seva part de codi funcioni
+# cada alumn@ vetllaà perquè la seva part de codi funcioni
 
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
