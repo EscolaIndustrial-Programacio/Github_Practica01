@@ -1,18 +1,19 @@
 #Bloc02 ->Python Github_Practica01.py  V03
 
-# Importar la llibreria math i la constant PI Alumn@ 26
+# Importar la llibreria math i la constant PI Alumn@ 26 IsidroP
 # L'alumn@ 26 ens explicarà què és la llibreria math i perquè la fem servir
-# La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
 
-import math
-PI = math.pi  
+
+import math # La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
+PI = math.pi  # math.pi es el numero pi es a dir 3,14... dins la llibreria math.
+# També utilitzem math.pow que fa retornar el valor de x elevat a la potència y.
 
 # Àrees i perímetres
 # Els números es corresponen amb el número que he assignat a cada figura de la taula
 # Els números també es corresponen amb els de l'alumn@ que ha de fer el programa i enviar-lo
 # El número de l'alumnat es correspon amb el seu número de llista
 
-def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'àrea i del perímetre d'un quadrat ")
+def quadrat(): # 1 Arnau A
     a = float(input("Costat = "))
     area = a * a
     perimetre = 4 * a
@@ -37,8 +38,12 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
-
+<<<<<<< HEAD
 def estel(): # 6
+    
+=======
+
+def estel(): # 6 Biel B.
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
     b = float(input("Costat major b = "))
@@ -48,6 +53,7 @@ def estel(): # 6
     perimetre = 2 * (b + a)
     return area, perimetre
 
+>>>>>>> b72706da70c6c136e6b3f088d33c946a36b3f18b
      
 def trapezi(): # 7 Mariona B
     print("Càlcul de l'àrea i del perímetre d'un trapezi")
@@ -60,12 +66,20 @@ def trapezi(): # 7 Mariona B
     perimetre = B + b + a + c
     return area, perimetre
 
+<<<<<<< HEAD
+def cercle(): # 8
+<<<<<<< HEAD
+    
+=======
+=======
 def cercle(): # 8 Eric.C
+>>>>>>> 62e3fdb612022ac0f320c0a88cb562ddfe5188d7
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
     perimetre = 2 * PI * radi
     return area, perimetre
+>>>>>>> b72706da70c6c136e6b3f088d33c946a36b3f18b
 
 def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
@@ -85,7 +99,7 @@ def corona(): # 10 Judit C
     perimetre = 2 * PI * (R + r)
     return area, perimetre
     
-def sector(): # 11
+def sector(): # 11 Marc C
     print("Càlcul de l'àrea i del perímetre d'un sector circular ")
     angle = float(input("Angle en graus = "))
     R = float(input("radi = "))
@@ -97,8 +111,12 @@ def sector(): # 11
 
 # Àrees i volums
 
-def cub(): # 12
-   
+def cub(): #12 Imran EK
+    print("Càlcul de l'àrea i del volum d'un cub ")
+    a = float(input("Aresta = "))
+    area = 6 * pow(a,2)
+    volum = pow(a,3)
+    return area, volum
 
 def cilindre(): # 13 joan.f 13
     print("Càlcul de l'àrea i del volum d'un cilindre ")
@@ -117,8 +135,15 @@ def prisma_recte(): # 15
 def con(): # 16
    
 
-def tronc_con(): # 17
-   
+def tronc_con(): # 17 AlexandraElenaG
+   print("Calcul de l'area i del volum d'un tronc de con" )
+    R = float(input("Radi major = "))
+    r = float(input("radi menor = "))
+    h = float(input("altura = "))
+    g = float(input("generatriu = "))
+    area = PI * (g * (r+R)+(r*r)+math.pow(R,2))
+    volum = PI * h * ((R*R)+(r*r)+(R*r))/3
+    return area, volum
 
 def esfera(): # 18
     
@@ -148,7 +173,7 @@ def octaedre_regular(): # 21
         print("Alguna cosa ha anat malament, tornem-ho a intentar!")
         octaedre_regular()
 
-def tronc_piramide(): # 22
+def tronc_piramide(): # 22 Irina M
     print("Càlcul de l'àrea i del volum d'un tronc de piràmide ")
     
     h = float(input("Alçada = "))
@@ -172,7 +197,7 @@ def tronc_piramide(): # 22
     
     return area, volum
  
-def casquet_esferic(): # 23
+def casquet_esferic(): # 23 Pere M.
     print("Càlcul de l'àrea i del volum d'un casquet_esfèric ")
     r = float(input("Radi = "))
     h = float(input("Alçada del casquet = "))
@@ -195,22 +220,22 @@ def segment_esferic(): # 25 Eduardo Otoni
     
 
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
-# Programa principal  Alumn@ 27
+# Programa principal  Alumn@ 27 OscarAlejandroP
 
-print(" Menú -- Mides en unitat donada ")
+print(" Menú Mides en cm , cm2 i cm3   ")
 print("================================")
 print("")
-print("1. ")
-print("2. ")
-print("3. ")
-print("4. ")
-print("5. ")
-print("6. ")
-print("7. ")
-print("8. ")
-print("9. ")
-print("10. ")
-print("11. ")
+print("1. L'àrea i el perímetre d'un quadrat ")
+print("2. L'àrea i el perímetre d'un triangle ")
+print("3. L'àrea i el perímetre d'un rectangle ")
+print("4. L'àrea i el perímetre d'un paral·lelogram ")
+print("5. L'àrea i el perímetre d'un rombe ")
+print("6. L'àrea i el perímetre d'un estel ")
+print("7. L'àrea i el perímetre d'un trapezi ")
+print("8. L'àrea i el perímetre d'un cercle ")
+print("9. L'àrea i el perímetre d'un polígon regular ")
+print("10. L'àrea i el perímetre d'una corona circular ")
+print("11. L'àrea i el perímetre d'un sector circular ")
 print("")
 print("12. L'àrea i el volum d'un cub ") # Alumne 28
 print("13. L'àrea i el volum d'un cilindre ")
@@ -298,18 +323,35 @@ elif menu == 14 :
     print("L'àrea és ",area)
     print("El volum és ",volum)
 elif menu == 15 :
+<<<<<<< HEAD
+    
+elif menu == 16 : # 33 DiegoV
+    area, volum = con()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
+=======
     area, volum = prisma_recte()
     print("L'àrea és ",area)
     print("El volum és ",volum)
 elif menu == 16 : # Alumn@ 33
     
+>>>>>>> 62e3fdb612022ac0f320c0a88cb562ddfe5188d7
 elif menu == 17 :
-    
+    area,volum = tronc_con()
+    print("L'àrea és ", area)
+    print("El volum en cm és ",volum, "cm'3'.")
 elif menu == 18 :
-    
+    area, volum = esfera()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 19 :
-    
+    area, volum = piramide()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 20 :
+    area, volum = tetraedre_regular()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 21 : # Alumn@ 34
     
@@ -358,7 +400,7 @@ elif menu == 25 :
 # També us pot demanar un codi que us donarà just abans
 # git status
 
-# cada alumn@ vetllarà perquè la seva part de codi funcioni
+# cada alumn@ vetllaà perquè la seva part de codi funcioni
 
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
