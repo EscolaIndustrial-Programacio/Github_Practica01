@@ -1,11 +1,12 @@
 #Bloc02 ->Python Github_Practica01.py  V03
 
-# Importar la llibreria math i la constant PI Alumn@ 26
+# Importar la llibreria math i la constant PI Alumn@ 26 IsidroP
 # L'alumn@ 26 ens explicarà què és la llibreria math i perquè la fem servir
-# La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
 
-import math
-PI = math.pi  
+
+import math # La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
+PI = math.pi  # math.pi es el numero pi es a dir 3,14... dins la llibreria math.
+# També utilitzem math.pow que fa retornar el valor de x elevat a la potència y.
 
 # Àrees i perímetres
 # Els números es corresponen amb el número que he assignat a cada figura de la taula
@@ -85,7 +86,7 @@ def corona(): # 10 Judit C
     perimetre = 2 * PI * (R + r)
     return area, perimetre
     
-def sector(): # 11
+def sector(): # 11 Marc C
     print("Càlcul de l'àrea i del perímetre d'un sector circular ")
     angle = float(input("Angle en graus = "))
     R = float(input("radi = "))
@@ -190,22 +191,22 @@ def segment_esferic(): # 25 Eduardo Otoni
     
 
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
-# Programa principal  Alumn@ 27
+# Programa principal  Alumn@ 27 OscarAlejandroP
 
-print(" Menú -- Mides en unitat donada ")
+print(" Menú Mides en cm , cm2 i cm3   ")
 print("================================")
 print("")
-print("1. ")
-print("2. ")
-print("3. ")
-print("4. ")
-print("5. ")
-print("6. ")
-print("7. ")
-print("8. ")
-print("9. ")
-print("10. ")
-print("11. ")
+print("1. L'àrea i el perímetre d'un quadrat ")
+print("2. L'àrea i el perímetre d'un triangle ")
+print("3. L'àrea i el perímetre d'un rectangle ")
+print("4. L'àrea i el perímetre d'un paral·lelogram ")
+print("5. L'àrea i el perímetre d'un rombe ")
+print("6. L'àrea i el perímetre d'un estel ")
+print("7. L'àrea i el perímetre d'un trapezi ")
+print("8. L'àrea i el perímetre d'un cercle ")
+print("9. L'àrea i el perímetre d'un polígon regular ")
+print("10. L'àrea i el perímetre d'una corona circular ")
+print("11. L'àrea i el perímetre d'un sector circular ")
 print("")
 print("12. L'àrea i el volum d'un cub ") # Alumne 28
 print("13. L'àrea i el volum d'un cilindre ")
