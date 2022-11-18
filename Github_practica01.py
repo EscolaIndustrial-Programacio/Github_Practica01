@@ -99,20 +99,20 @@ def segment_esferic(): # 25
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
 # Programa principal  Alumn@ 27
 
-print(" Menú -- Mides en unitat donada ")
+print(" Menú Mides en cm , cm2 i cm3   ")
 print("================================")
 print("")
-print("1. ")
-print("2. ")
-print("3. ")
-print("4. ")
-print("5. ")
-print("6. ")
-print("7. ")
-print("8. ")
-print("9. ")
-print("10. ")
-print("11. ")
+print("1. Àrea i perímetre d'un quadrat ")
+print("2. Àrea i perímetre d'un triangle ")
+print("3. Àrea i perímetre d'un rectangle ")
+print("4. Àrea i perímetre d'un paral·lelogram ")
+print("5. Àrea i perímetre d'un rombe ")
+print("6. Àrea i perímetre d'un estel ")
+print("7. Àrea i perímetre d'un trapezi ")
+print("8. Àrea i perímetre d'un cercle ")
+print("9. Àrea i perímetre d'un polígon regular ")
+print("10. Àrea i perímetre d'una corona circular ")
+print("11. Àrea i perímetre d'un sector circular ")
 print("")
 
 print("12. ") # Alumn@ 28
