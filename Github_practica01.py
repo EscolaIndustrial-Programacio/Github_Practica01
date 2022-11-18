@@ -64,7 +64,14 @@ def ortoedre(): # 14
 def prisma_recte(): # 15
     
 
-def con(): # 16
+def con(): # 16 Ilyas G
+    print("Càlcul de l'àrea i del volum d'un con ")
+    r = float(input("Radi = "))
+    g = float(input("generatriu = "))
+    h = float(input("Alçada = "))
+    area = PI * r * (r + g)
+    volum = PI * pow(r,2) * h
+    return area, volum 
    
 
 def tronc_con(): # 17
