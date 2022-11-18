@@ -67,7 +67,7 @@ def prisma_recte(): # 15
 def con(): # 16
    
 
-def tronc_con(): # 17
+def tronc_con(): # 17 AlexandraElenaG
    print("Calcul de l'area i del volum d'un tronc de con" )
     R = float(input("Radi major = "))
     r = float(input("radi menor = "))
