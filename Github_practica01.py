@@ -118,8 +118,13 @@ def cub(): #12 Imran EK
     volum = pow(a,3)
     return area, volum
 
-def cilindre(): # 13
-    
+def cilindre(): # 13 joan.f 13
+    print("Càlcul de l'àrea i del volum d'un cilindre ")
+    R = float(input("Radi = "))
+    h = float(input("Alçada = "))
+    area = 2 * PI * R * (R + h)
+    volum = PI * R*R * h
+    return area, volum
 
 def ortoedre(): # 14
     
@@ -127,11 +132,25 @@ def ortoedre(): # 14
 def prisma_recte(): # 15
     
 
-def con(): # 16
+def con(): # 16 Ilyas G
+    print("Càlcul de l'àrea i del volum d'un con ")
+    r = float(input("Radi = "))
+    g = float(input("generatriu = "))
+    h = float(input("Alçada = "))
+    area = PI * r * (r + g)
+    volum = PI * pow(r,2) * h
+    return area, volum 
    
 
-def tronc_con(): # 17
-   
+def tronc_con(): # 17 AlexandraElenaG
+   print("Calcul de l'area i del volum d'un tronc de con" )
+    R = float(input("Radi major = "))
+    r = float(input("radi menor = "))
+    h = float(input("altura = "))
+    g = float(input("generatriu = "))
+    area = PI * (g * (r+R)+(r*r)+math.pow(R,2))
+    volum = PI * h * ((R*R)+(r*r)+(R*r))/3
+    return area, volum
 
 def esfera(): # 18
     
@@ -311,18 +330,35 @@ elif menu == 14 :
     print("L'àrea és ",area)
     print("El volum és ",volum)
 elif menu == 15 :
+<<<<<<< HEAD
+    
+elif menu == 16 : # 33 DiegoV
+    area, volum = con()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
+=======
     area, volum = prisma_recte()
     print("L'àrea és ",area)
     print("El volum és ",volum)
 elif menu == 16 : # Alumn@ 33
     
+>>>>>>> 62e3fdb612022ac0f320c0a88cb562ddfe5188d7
 elif menu == 17 :
-    
+    area,volum = tronc_con()
+    print("L'àrea és ", area)
+    print("El volum en cm és ",volum, "cm'3'.")
 elif menu == 18 :
-    
+    area, volum = esfera()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 19 :
-    
+    area, volum = piramide()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 20 :
+    area, volum = tetraedre_regular()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 21 : # Alumn@ 34
     
