@@ -118,8 +118,13 @@ def cub(): #12 Imran EK
     volum = pow(a,3)
     return area, volum
 
-def cilindre(): # 13
-    
+def cilindre(): # 13 joan.f 13
+    print("Càlcul de l'àrea i del volum d'un cilindre ")
+    R = float(input("Radi = "))
+    h = float(input("Alçada = "))
+    area = 2 * PI * R * (R + h)
+    volum = PI * R*R * h
+    return area, volum
 
 def ortoedre(): # 14
     
