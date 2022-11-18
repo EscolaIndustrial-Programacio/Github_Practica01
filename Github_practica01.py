@@ -18,7 +18,14 @@ def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'
     perimetre = 4 * a
     return area, perimetre
 
-def triangle(): # 2
+def triangle(): # 2 Pau A
+    h = float(input("Quan mesura l'altura?"))
+    a = float(input("Quan mesura un costat?"))
+    b = float(input("Quan mesura la base?"))
+    c = float(input("Quan mesura el costat que falta?"))
+    area = b*h/2
+    perimetre = a+b+c
+    return area, perimetre
     
 
 def rectangle(): # 3
@@ -31,7 +38,7 @@ def rombe(): # 5
     
 
 
-def estel(): # 6
+def estel(): # 6 Biel B.
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
     b = float(input("Costat major b = "))
@@ -42,17 +49,25 @@ def estel(): # 6
     return area, perimetre
 
      
-def trapezi(): # 7
-    
+def trapezi(): # 7 Mariona B
+    print("Càlcul de l'àrea i del perímetre d'un trapezi")
+    B = float(input("Base major B = "))
+    b = float(input("Base menor b = "))
+    a = float(input("Costat a = "))
+    c = float(input("Costat c = "))
+    h = float(input("Alçada = "))
+    area = (B + b) * h * (1/2)
+    perimetre = B + b + a + c
+    return area, perimetre
 
-def cercle(): # 8
+def cercle(): # 8 Eric.C
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
     perimetre = 2 * PI * radi
     return area, perimetre
 
-def poligon(): # 9
+def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
     b = float(input("Costat = "))
     costats = float(input("Número de costats = "))
@@ -62,7 +77,7 @@ def poligon(): # 9
     return area, perimetre
     
 
-def corona(): # 10
+def corona(): # 10 Judit C
     print("Càlcul de l'àrea i del perímetre d'una corona circular ")
     R = float(input("Radi major = "))
     r = float(input("radi menor = "))
@@ -70,7 +85,7 @@ def corona(): # 10
     perimetre = 2 * PI * (R + r)
     return area, perimetre
     
-def sector(): # 11
+def sector(): # 11 Marc C
     print("Càlcul de l'àrea i del perímetre d'un sector circular ")
     angle = float(input("Angle en graus = "))
     R = float(input("radi = "))
@@ -128,7 +143,7 @@ def octaedre_regular(): # 21
         print("Alguna cosa ha anat malament, tornem-ho a intentar!")
         octaedre_regular()
 
-def tronc_piramide(): # 22
+def tronc_piramide(): # 22 Irina M
     print("Càlcul de l'àrea i del volum d'un tronc de piràmide ")
     
     h = float(input("Alçada = "))
@@ -152,7 +167,7 @@ def tronc_piramide(): # 22
     
     return area, volum
  
-def casquet_esferic(): # 23
+def casquet_esferic(): # 23 Pere M.
     print("Càlcul de l'àrea i del volum d'un casquet_esfèric ")
     r = float(input("Radi = "))
     h = float(input("Alçada del casquet = "))
@@ -163,7 +178,16 @@ def casquet_esferic(): # 23
 def fus_falcaEsferica(): # 24
     
     
-def segment_esferic(): # 25
+def segment_esferic(): # 25 Eduardo Otoni
+    print("Càlcul de l'àrea i del volum d'un segment esfèric ")
+    h = float(input("Alçada de la zona o segment esfèric = "))
+    R = float(input("Radi de l'esfera = "))
+    r_gran = float(input("Radi gran del segment = "))
+    r_petit = float(input("Radi petit del segment = "))
+    area = 2 * PI * R * h
+    volum = 1/6 * PI * h * (pow(h,2) + 3 * pow(r_gran,2) + 3 * pow(r_petit,2))
+    return area, volum
+    
 
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
 # Programa principal  Alumn@ 27 OscarAlejandroP
@@ -202,7 +226,7 @@ print("==============================================")
 
 menu = int(input("escull un element del menú: "))
 
-# Àrees i perímetres  Alumn@ 29
+# Àrees i perímetres  Alumn@ 29 jan.r
 
 if menu == 1 :
     area, perimetre = quadrat()
@@ -219,7 +243,7 @@ elif menu == 3 :
     print("L'àrea és ", area)
     print("El perímetre és ", perimetre)
     
-elif menu == 4 : # Alumn@ 30
+elif menu == 4 : # 30 Anaís S.
     area, perimetre = paralellogram()
     print("L'àrea és ", area)
     print("El perímetre és ", perimetre)
@@ -252,7 +276,7 @@ elif menu == 10 :
 elif menu == 11 :
     
 
-# Àrees i volums Alumn@ 32
+# Àrees i volums Alumn@ 32 JanS
 
 elif menu == 12 :
     area, volum = cub()
