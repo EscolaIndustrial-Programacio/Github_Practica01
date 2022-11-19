@@ -371,7 +371,7 @@ elif menu == 24 :
 elif menu == 25 :
     
 
-# Git commands Alumn@ 35
+# Git commands Alumn@ 35 WeihaoY
 
 # git clone [https:// --- adreça de l'enllaç del codi que us poso tot seguit
 # https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
@@ -408,7 +408,7 @@ elif menu == 25 :
 # git status
 
 # cada alumn@ vetllaà perquè la seva part de codi funcioni
-
+#YO SOY WEIHAO
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
 primer amb programació estructurada i després amb programació modular.
