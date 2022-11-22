@@ -124,8 +124,13 @@ def cub(): #12 Imran EK
     volum = pow(a,3)
     return area, volum
 
-def cilindre(): # 13
-    
+def cilindre(): # 13 joan.f 13
+    print("Càlcul de l'àrea i del volum d'un cilindre ")
+    R = float(input("Radi = "))
+    h = float(input("Alçada = "))
+    area = 2 * PI * R * (R + h)
+    volum = PI * R*R * h
+    return area, volum
 
 def ortoedre(): # 14
     
@@ -133,7 +138,14 @@ def ortoedre(): # 14
 def prisma_recte(): # 15
     
 
-def con(): # 16
+def con(): # 16 Ilyas G
+    print("Càlcul de l'àrea i del volum d'un con ")
+    r = float(input("Radi = "))
+    g = float(input("generatriu = "))
+    h = float(input("Alçada = "))
+    area = PI * r * (r + g)
+    volum = PI * pow(r,2) * h
+    return area, volum 
    
 
 def tronc_con(): # 17 AlexandraElenaG
@@ -209,7 +221,7 @@ def casquet_esferic(): # 23 Pere M.
 def fus_falcaEsferica(): # 24
     
     
-def segment_esferic(): # 25 Eduardo Otoni
+def segment_esferic(): # 25 Eduardo O.
     print("Càlcul de l'àrea i del volum d'un segment esfèric ")
     h = float(input("Alçada de la zona o segment esfèric = "))
     R = float(input("Radi de l'esfera = "))
@@ -238,7 +250,7 @@ print("9. L'àrea i el perímetre d'un polígon regular ")
 print("10. L'àrea i el perímetre d'una corona circular ")
 print("11. L'àrea i el perímetre d'un sector circular ")
 print("")
-print("12. L'àrea i el volum d'un cub ") # Alumne 28
+print("12. L'àrea i el volum d'un cub ") # Alumne 28 PauR
 print("13. L'àrea i el volum d'un cilindre ")
 print("14. L'àrea i el volum d'un ortoedre ")
 print("15. L'àrea i el volum d'un prisma recte ")
@@ -354,18 +366,29 @@ elif menu == 20 :
     print("L'àrea és ",area)
     print("El volum és ",volum)
     
-elif menu == 21 : # Alumn@ 34
-    
+elif menu == 21 : # Alumn@ 34 AnnaW
+    area, volum = octaedre_regular()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 22 :
-    
+    area, volum = tronc_piramide()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 23 :
-    
+    area, volum = casquet_esferic()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 24 :
-    
+    area, volum = fus_falcaEsferica()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 25 :
-    
+    area, volum = segment_esferic()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 
-# Git commands Alumn@ 35
+
+# Git commands Alumn@ 35 WeihaoY
 
 # git clone [https:// --- adreça de l'enllaç del codi que us poso tot seguit
 # https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
@@ -402,7 +425,7 @@ elif menu == 25 :
 # git status
 
 # cada alumn@ vetllaà perquè la seva part de codi funcioni
-
+#YO SOY WEIHAO
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
 primer amb programació estructurada i després amb programació modular.
