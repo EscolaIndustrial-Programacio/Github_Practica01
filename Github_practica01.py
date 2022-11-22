@@ -360,16 +360,27 @@ elif menu == 20 :
     print("L'àrea és ",area)
     print("El volum és ",volum)
     
-elif menu == 21 : # Alumn@ 34
-    
+elif menu == 21 : # Alumn@ 34 AnnaW
+    area, volum = octaedre_regular()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 22 :
-    
+    area, volum = tronc_piramide()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 23 :
-    
+    area, volum = casquet_esferic()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 24 :
-    
+    area, volum = fus_falcaEsferica()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 25 :
-    
+    area, volum = segment_esferic()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
+
 
 # Git commands Alumn@ 35 WeihaoY
 
