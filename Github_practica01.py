@@ -33,7 +33,13 @@ def rectangle(): # 3
     
 
 def paralellogram(): # 4
-    
+    print("Càlcul de l'àrea i del perímetre d'un rectangle ")
+    a = float(input("Costat a = "))
+    b = float(input("Costat b = "))
+    h = float(input("Alçada = "))
+    area = a*b
+    perimetre = 2 * (a + b)
+    return area, perimetre
 
 def rombe(): # 5
     
