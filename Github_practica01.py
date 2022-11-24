@@ -72,20 +72,12 @@ def trapezi(): # 7 Mariona B
     perimetre = B + b + a + c
     return area, perimetre
 
-<<<<<<< HEAD
-def cercle(): # 8
-<<<<<<< HEAD
-    
-=======
-=======
 def cercle(): # 8 Eric.C
->>>>>>> 62e3fdb612022ac0f320c0a88cb562ddfe5188d7
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
     perimetre = 2 * PI * radi
     return area, perimetre
->>>>>>> b72706da70c6c136e6b3f088d33c946a36b3f18b
 
 def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
